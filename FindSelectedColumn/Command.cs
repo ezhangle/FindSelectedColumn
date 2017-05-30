@@ -34,7 +34,10 @@ namespace FindSelectedColumn
         selectedIds.Add( elem.Id );
       }
       if( selectedIds.Count == 0 )
-        throw new Exception( "Please select a concrete beam or column to create rebar." );
+      {
+        message = "Please select a concrete beam or column to create rebar.";
+        return Result.Failed;
+      }
 
       // Construct filter to find expected rebar host
       // Structural type filters firstly
