@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command FindSelectedColumn</Text>
+    <Description>Some description for FindSelectedColumn</Description>
+    <Assembly>FindSelectedColumn.dll</Assembly>
+    <FullClassName>FindSelectedColumn.Command</FullClassName>
+    <ClientId>2894f10f-2c62-4b15-9dbb-079d11d01996</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
